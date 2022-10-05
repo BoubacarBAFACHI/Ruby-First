@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h1 class="display-4"> <%= @student.first_name%> <%= @student.last_name %> </h1>
+  <br/>
+  <p>
+     <%= @student.email %> |
+     <%= @student.phone %> |
+     <%= @student.twitter %>
+  </p>
+  <hr class="my-4">
+
+  <br/>
+  <%= link_to "Edit this student", edit_student_path(@student), class:"btn btn-secondary" %> |
+  <%= link_to "Back to students", students_path, class:"btn btn-dark" %>
+
+<p>
+  <%= button_to "Destroy this student", @student, method: :delete, class:"btn btn-danger" %>
+</p> 
+</div>
