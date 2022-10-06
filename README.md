@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-Makin by BAFACHI Boubacar a full SWE
+Making by BAFACHI Boubacar a full SWE
